@@ -9,6 +9,8 @@ import SwiftUI
 
 struct FrameworkGridView: View {
     
+    
+    //state object is an observedObject that can publishes changes in its properties
     @StateObject var viewModel = FrameworkGridViewModel()
     
     let columns: [GridItem] = [  GridItem(.flexible()),
